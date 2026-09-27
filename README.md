@@ -1,6 +1,6 @@
 # Java Basics
 
-Java programs covering syntax fundamentals, operators, and strings — following a structured Java course.
+Java programs covering syntax fundamentals, operators, strings, and conditionals — following a structured Java course.
 
 ## Fundamentals
 
@@ -15,9 +15,9 @@ Java programs covering syntax fundamentals, operators, and strings — following
 | File | Problem |
 |---|---|
 | `CWH_Ch1_PS_1.java` | Sum of three numbers |
-| `CHW_Ch1_PS_2.java` | Calculate CGPA from three subject marks |
-| `CHW_Ch1_PS_3.java` | Greet a user by name using input |
-| `CHW_Ch1_PS_4.java` | Convert kilometers to miles |
+| `CWH_Ch1_PS_2.java` | Calculate CGPA from three subject marks |
+| `CWH_Ch1_PS_3.java` | Greet a user by name using input |
+| `CWH_Ch1_PS_4.java` | Convert kilometers to miles |
 | `CWH_Ch1_PS_5.java` | Check whether user input is an integer |
 
 ## Chapter 2 - Operators
@@ -45,28 +45,54 @@ Java programs covering syntax fundamentals, operators, and strings — following
 | `CWH_CH3_V15_PS_4.java` | Detect double/triple spaces in a string |
 | `CWH_CH3_V15_PS_5.java` | Format a letter using escape sequence characters |
 
+## Chapter 4 - Conditionals & Switch
+
+| File | Concept |
+|---|---|
+| `CWH_CH4_v16_condi.java` | if-else basics |
+| `CWH_CH4_v17_condi.java` | Conditional statements (continued) |
+| `CWH_CH4_v18_switch.java` | switch statement |
+
+## Chapter 4 - Practice Set
+
+| File | Problem |
+|---|---|
+| `CWH_CH4_V19_PS_p1.java` | Predict program output — common `=` vs `==` mistake in an if condition |
+| `CWH_CH4_V19_PS_p2.java` | Check if a student passes or fails (40% overall, min 33% per subject, 3 subjects) |
+| `CWH_CH4_V19_PS_p3.java` | Calculate income tax based on slabs (2.5L-5L: 5%, 5L-10L: 20%, above 10L: 30%) |
+| `CWH_CH4_V19_PS_p4.java` | Find the day of the week from a number (1 = Monday, 2 = Tuesday, etc.) |
+| `CWH_CH4_V19_PS_p5.java` | Check whether an entered year is a leap year |
+| `CWH_CH4_V19_PS_p6.java` | Determine website type from its URL (.com, .org, .in) |
+
 ## Mini Projects
 
 | File | Description |
 |---|---|
 | `assingment_class12.java` | Print a series of prime numbers up to N, using nested loops |
+| `rock_paper_scissors.java` / `rock_paper_scissors1.java` | Rock-Paper-Scissors game built while practicing conditionals (a fuller, feature-complete version lives in its own repo: [rock-paper-scissors-game](https://github.com/subhamkar-codes/rock-paper-scissors-game)) |
 
 ## Concepts covered
+
 - Java literals and data types (`byte`, `char`, `float`, `String`)
 - `Scanner` class for reading keyboard input
 - Operator precedence and evaluation order
 - String manipulation methods (`length()`, `toLowerCase()`, `replace()`, etc.)
 - Escape sequences
 - Nested loops (outer loop generates candidates, inner loop validates them — used in prime number checking)
+- Conditional statements (if-else) and the `switch` statement
+- Common beginner pitfalls (e.g. `=` vs `==` in conditions)
 
 ## Coming from C
+
 First Java programs after completing C fundamentals (pointers, arrays, strings, structures, file I/O, dynamic memory allocation). Java's OOP structure, Scanner-based input, and stricter type system (e.g. `String` vs primitive types) are the main syntax differences from C so far.
 
 ## How to run
-```bash
+
+\`\`\`
 javac <filename>.java
-java <classname>
-```
+java <ClassName>
+\`\`\`
 
 ## Status
-🚧 In progress — Chapters 1-3 complete (fundamentals, operators, strings), plus a nested-loop prime number project.
+
+🚧 In progress — Chapters 1-4 complete (fundamentals, operators, strings, conditionals & switch), plus a nested-loop prime number project and a Rock-Paper-Scissors mini-game.
