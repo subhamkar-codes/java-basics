@@ -1,6 +1,6 @@
 # Java Basics
 
-Java programs covering syntax fundamentals, operators, strings, and conditionals — following a structured Java course.
+Java programs covering syntax fundamentals, operators, strings, conditionals, and loops — following a structured Java course.
 
 ## Fundamentals
 
@@ -64,6 +64,30 @@ Java programs covering syntax fundamentals, operators, strings, and conditionals
 | `CWH_CH4_V19_PS_p5.java` | Check whether an entered year is a leap year |
 | `CWH_CH4_V19_PS_p6.java` | Determine website type from its URL (.com, .org, .in) |
 
+## Chapter 5 - Loops
+
+| File | Concept |
+|---|---|
+| `CWH_V21_while.java` | while loop |
+| `CWH_V22_do_while.java` | do-while loop |
+| `CWH_V23_FOR.java` | for loop |
+| `CWH_V24_break_continue.java` | break and continue statements |
+
+## Chapter 5 - Practice Set
+
+| File | Problem |
+|---|---|
+| `CWH_V25_Ch5_ps_1.java` | Print a star pyramid pattern that shrinks each row |
+| `CWH_V25_Ch5_ps_2.java` | Sum of first n even numbers using a while loop |
+| `CWH_V25_Ch5_ps_3.java` | Print the multiplication table of a given number n |
+| `CWH_V25_Ch5_ps_4.java` | Print the multiplication table of 10 in reverse order |
+| `CWH_V25_Ch5_ps_5.java` | Find the factorial of a given number using a for loop |
+| `CWH_V25_Ch5_ps_6.java` | Repeat Q5 (factorial) using a while loop |
+| `CWH_V25_Ch5_ps_7.java` | Repeat Q1 (star pattern) using a for/while loop |
+| `CWH_V25_Ch5_ps_9.java` | Calculate the sum of numbers occurring in the multiplication table of 8 |
+
+*Q8 (loop interchangeability, true/false) and Q10 (do-while execution behavior) are short conceptual answers, not code — noted here rather than as separate files. Q11 (repeat Q2 using a for loop) still pending.*
+
 ## Mini Projects
 
 | File | Description |
@@ -80,7 +104,8 @@ Java programs covering syntax fundamentals, operators, strings, and conditionals
 - Escape sequences
 - Nested loops (outer loop generates candidates, inner loop validates them — used in prime number checking)
 - Conditional statements (if-else) and the `switch` statement
-- Common beginner pitfalls (e.g. `=` vs `==` in conditions)
+- while, do-while, and for loops; break and continue
+- Common beginner pitfalls (e.g. `=` vs `==` in conditions, off-by-one errors like starting a factorial loop at 0 instead of 1)
 
 ## Coming from C
 
@@ -88,11 +113,10 @@ First Java programs after completing C fundamentals (pointers, arrays, strings, 
 
 ## How to run
 
-\`\`\`
 javac <filename>.java
 java <ClassName>
-\`\`\`
+
 
 ## Status
 
-🚧 In progress — Chapters 1-4 complete (fundamentals, operators, strings, conditionals & switch), plus a nested-loop prime number project and a Rock-Paper-Scissors mini-game.
+🚧 In progress — Chapters 1-5 complete (fundamentals, operators, strings, conditionals & switch, loops), plus a nested-loop prime number project and a Rock-Paper-Scissors mini-game.
