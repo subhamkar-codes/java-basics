@@ -88,6 +88,27 @@ Java programs covering syntax fundamentals, operators, strings, conditionals, an
 
 *Q8 (loop interchangeability, true/false) and Q10 (do-while execution behavior) are short conceptual answers, not code — noted here rather than as separate files. Q11 (repeat Q2 using a for loop) still pending.*
 
+## Chapter 6 - Arrays
+
+| File | Concept |
+|---|---|
+| `CWH_ch6_V26_array.java` | Array basics — declaration and initialization |
+| `CWH_ch6_V27_array.java` | Looping through arrays |
+| `CWH_ch6_V28_array.java` | Array concepts (continued) |
+
+## Chapter 6 - Practice Set
+
+| File | Problem |
+|---|---|
+| `CWH_V29_PS_ARRAY_p1.java` | Create an array of 5 floats and calculate their sum |
+| `CWH_V29_PS_ARRAY_p2.java` | Find out whether a given integer is present in an array or not |
+| `CWH_V29_PS_ARRAY_p3.java` | Calculate the average marks from an array of Physics marks using a for-each loop |
+| `CWH_V29_PS_ARRAY_p4.java` | Add two matrices of size 2x3 |
+| `CWH_V29_PS_ARRAY_p5.java` | Reverse an array |
+| `CWH_V29_PS_ARRAY_p6.java` | Find the maximum element in an array |
+| `CWH_V29_PS_ARRAY_p7.java` | Find the minimum element in an array |
+| `CWH_V29_PS_ARRAY_p8.java` | Find whether an array is sorted or not |
+
 ## Mini Projects
 
 | File | Description |
@@ -106,7 +127,7 @@ Java programs covering syntax fundamentals, operators, strings, conditionals, an
 - Conditional statements (if-else) and the `switch` statement
 - while, do-while, and for loops; break and continue
 - Common beginner pitfalls (e.g. `=` vs `==` in conditions, off-by-one errors like starting a factorial loop at 0 instead of 1)
-
+- Arrays — declaration, initialization, looping (indexed and for-each), searching, reversing, min/max, matrix operations
 ## Coming from C
 
 First Java programs after completing C fundamentals (pointers, arrays, strings, structures, file I/O, dynamic memory allocation). Java's OOP structure, Scanner-based input, and stricter type system (e.g. `String` vs primitive types) are the main syntax differences from C so far.
@@ -118,5 +139,4 @@ java <ClassName>
 
 
 ## Status
-
-🚧 In progress — Chapters 1-5 complete (fundamentals, operators, strings, conditionals & switch, loops), plus a nested-loop prime number project and a Rock-Paper-Scissors mini-game.
+🚧 In progress — Chapters 1-6 complete (fundamentals, operators, strings, conditionals & switch, loops, arrays), plus a nested-loop prime number project and a Rock-Paper-Scissors mini-game.
