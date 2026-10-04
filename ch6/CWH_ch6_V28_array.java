@@ -1,0 +1,31 @@
+public class CWH_ch6_V28_array {
+    static void main(String[] args) {
+        int [] marks ; // 1D array;
+        int [][] flats; // 2D array;
+        flats = new int [2][3];
+        flats[0][0]= 101;
+        flats [0][1]= 102;
+        flats[0][2] = 103;
+        flats[1][0]= 201;
+        flats [1][1]= 202;
+        flats[1][2] = 203;
+
+
+//        display array 2-D using loop......
+        System.out.println("display 2-D array using loop......");
+        for (int i = 0; i < flats.length; i++) {
+            for (int j = 0; j < flats[i].length; j++) {
+                System.out.print(flats[i][j]);
+                System.out.print(" ");
+            }
+            System.out.print("\n");
+        }
+
+
+        // for each loop for array......
+//        System.out.println("Printing using for-each loop using array");
+//        for (int element: flats){
+//            System.out.println(element);
+//        }
+    }
+}
