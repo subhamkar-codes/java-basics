@@ -108,6 +108,28 @@ Java programs covering syntax fundamentals, operators, strings, conditionals, an
 | `CWH_V29_PS_ARRAY_p6.java` | Find the maximum element in an array |
 | `CWH_V29_PS_ARRAY_p7.java` | Find the minimum element in an array |
 | `CWH_V29_PS_ARRAY_p8.java` | Find whether an array is sorted or not |
+## Chapter 7 - Methods, Recursion & Varargs
+
+| File | Concept |
+|---|---|
+| `CWH_V31_Ch7_method.java` | Methods basics |
+| `CWH_V32_Ch7_method.java` | Methods (continued) |
+| `CHW_V33_Ch7_VARARGS.java` | Varargs (variable-length arguments) |
+| `CWH_V34_Ch7_rec_in_java.java` | Recursion basics |
+
+## Chapter 7 - Practice Set
+
+| File | Problem |
+|---|---|
+| `CWH_V35_Ch7_PracSet_p1.java` | Print the multiplication table of a number n, using a method |
+| `CWH_V35_Ch7_PracSet_p2.java` | Print a right-angled star pattern using functions |
+| `CWH_V35_Ch7_PracSet_p3.java` | Recursive function to calculate the sum of first n natural numbers |
+| `CWH_V35_Ch7_PracSet_p4.java` | Print an inverted star pattern using a function |
+| `CWH_V35_Ch7_PracSet_p5.java` | Print the nth term of the Fibonacci series using recursion |
+| `CWH_V35_Ch7_PracSet_p6.java` | Find the average of a set of numbers entered by the user, using varargs |
+| `CWH_V35_Ch7_PracSet_p9.java` | Convert Celsius temperature to Fahrenheit, using a function |
+
+*Q7, Q8, and Q10 are repeat exercises (redo Q4 using recursion, redo Q2 using recursion, redo Q3 iteratively) and were intentionally skipped — solving the same logic a second time with a different technique didn't add new learning value here.*
 
 ## Mini Projects
 
