@@ -150,9 +150,22 @@ Java programs covering syntax fundamentals, operators, strings, conditionals, an
 - while, do-while, and for loops; break and continue
 - Common beginner pitfalls (e.g. `=` vs `==` in conditions, off-by-one errors like starting a factorial loop at 0 instead of 1)
 - Arrays — declaration, initialization, looping (indexed and for-each), searching, reversing, min/max, matrix operations
-## Coming from C
 
-First Java programs after completing C fundamentals (pointers, arrays, strings, structures, file I/O, dynamic memory allocation). Java's OOP structure, Scanner-based input, and stricter type system (e.g. `String` vs primitive types) are the main syntax differences from C so far.
+## Chapter 8 - OOP: Classes & Objects
+
+| File | Concept |
+|---|---|
+| `CWH_V38_OOP_OWN_CLASS.java` | Creating your own class and objects |
+
+## Chapter 8 - Practice Set
+
+| File | Problem |
+|---|---|
+| `CWH_V39_Ch8_PS_P1.java` | Employee class with salary and name properties, `getSalary()`, `getName()`, `setName()` |
+| `CWH_V39_Ch8_PS_P2.java` | Cellphone class with methods that print "ringing..." and "vibrating..." |
+| `CWH_V39_Ch8_PS_P3.java` | Square class with a method to set its side and calculate area and perimeter |
+| `CWH_V39_Ch8_PS_P4.java` | Rectangle class, same idea as P3 |
+| `CWH_V39_Ch8_PS_P5.java` | TommyVercetti class with hitting, running and firing methods |
 
 ## How to run
 
