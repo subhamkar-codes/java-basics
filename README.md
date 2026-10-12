@@ -167,6 +167,33 @@ Java programs covering syntax fundamentals, operators, strings, conditionals, an
 | `CWH_V39_Ch8_PS_P4.java` | Rectangle class, same idea as P3 |
 | `CWH_V39_Ch8_PS_P5.java` | TommyVercetti class with hitting, running and firing methods |
 
+## Chapter 9 - OOP: Access Modifiers, Getters/Setters & Constructors
+
+| File | Concept |
+|---|---|
+| `CWH_V40_CH9_ACCM.java` | Access modifiers, getters and setters (encapsulation) |
+| `CWH_V41_ch9_construct.java` | Constructors |
+
+## Chapter 9 - Practice Set
+
+| File | Problem |
+|---|---|
+| `Cwh_V44_ch9_practice_set_p1.java` | Q1: `Cylinder` class using getters and setters to set its radius and height |
+| `Cwh_V44_ch9_practice_set_p1.java` | Q2: Calculate the surface area and volume of the cylinder from Q1 |
+| `Cwh_V44_ch9_practice_set_p1.java` | Q3: Repeat Q1 using a constructor |
+| `Cwh_V44_ch9_practice_set_p1.java` | Q4: Overload a constructor to initialize a rectangle of length 4 and breadth 5, or with custom parameters |
+
+*"Q5 (repeat Q1 for a sphere) was intentionally skipped - it is the same getter/setter logic with a different formula and didn't add new learning value here."*
+
+## Concepts covered (Chapter 9)
+
+- Private fields with public getters and setters (encapsulation)
+- The `this` keyword to separate a parameter from a field
+- Calculating a value in a method instead of storing it in a field (surface area, volume)
+- Using `Math.PI` for accurate calculations
+- Constructors and constructor overloading
+- Common beginner pitfall: forgetting to call a setter leaves the field at its default value (`0`), so the result silently becomes `0.0`
+
 ## How to run
 
 javac <filename>.java
