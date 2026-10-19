@@ -194,6 +194,17 @@ Java programs covering syntax fundamentals, operators, strings, conditionals, an
 - Constructors and constructor overloading
 - Common beginner pitfall: forgetting to call a setter leaves the field at its default value (`0`), so the result silently becomes `0.0`
 
+
+## Chapter 10 - OOP: Inheritance & Polymorphism
+
+| File | Concept |
+|---|---|
+| `CWH_V45_Ch10.java` | Inheritance basics |
+| `Cwh_V46_CH10.java` | Inheritance (continued) |
+| `Cwh_V47_this_class.java` | The `this` keyword / class reference distinctions |
+| `Cwh_V48_Method_overloding.java` | Method overloading |
+| `CWH_V49_dynamic_method_dispatch.java` | Dynamic method dispatch (runtime polymorphism) |
+
 ## How to run
 
 javac <filename>.java
