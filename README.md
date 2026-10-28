@@ -205,6 +205,35 @@ Java programs covering syntax fundamentals, operators, strings, conditionals, an
 | `Cwh_V48_Method_overloding.java` | Method overloading |
 | `CWH_V49_dynamic_method_dispatch.java` | Dynamic method dispatch (runtime polymorphism) |
 
+## Chapter 11 - OOP: Abstract Classes, Interfaces & Polymorphism
+
+| File | Concept |
+|---|---|
+| `CWH_V53__Ch1_abst.java` | Abstract classes and abstract methods |
+| `CWH_V54_ch11_interfaces.java` | Interfaces |
+| `Cwh_V55_ch11_DiffOfAbstAndInterface.java` | Differences between abstract classes and interfaces |
+| `CWH_V57_Ch11_default.java` | Default methods in interfaces |
+| `CWH_V58_Ch11_inheritInInteraface.java` | Inheritance between interfaces |
+| `CWH_V59_Ch11_Polymorphism.java` | Polymorphism |
+
+## Chapter 11 - Practice Set
+
+| File | Problem |
+|---|---|
+| `CWH_V60_Ch11_PS_p1Andp2.java` | Q1 & Q2: Abstract `Pen` class with abstract `write()` and `refill()` methods, extended by a concrete `FountainPen` class with an extra `changeNib()` method |
+| `CWH_V60_Ch11_PS_p3Andp5.java` | Q3 & Q5: `Monkey` class with `jump()` and `bite()`; `Human` extends `Monkey` and implements the `BasicAnimal` interface (`eat()`, `sleep()`); polymorphism demonstrated using the `Monkey` class |
+
+*Q1 and Q2 were combined because `FountainPen` builds directly on `Pen`, and Q3 and Q5 were combined because the polymorphism demo reuses the `Monkey` class from Q3. Q4, Q6 and Q7 were intentionally skipped - they repeat the same abstract-class, interface and polymorphism patterns and didn't add new learning value.*
+
+## Concepts covered (Chapter 11)
+
+- Abstract classes and abstract methods
+- Interfaces, and how they differ from abstract classes
+- Default methods in interfaces
+- Interfaces extending other interfaces
+- A class that extends a class and implements an interface at the same time
+- Polymorphism: using a parent type to refer to child objects
+
 ## How to run
 
 javac <filename>.java
