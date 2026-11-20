@@ -234,11 +234,40 @@ Java programs covering syntax fundamentals, operators, strings, conditionals, an
 - A class that extends a class and implements an interface at the same time
 - Polymorphism: using a parent type to refer to child objects
 
+## Chapter 12 - Packages & Access Modifiers
+
+| File | Concept |
+|---|---|
+| `CWH_V65_packages.java` | Packages in Java |
+| `CWH_V66_AccessModifiers.java` | Access modifiers (public, private, protected, default) |
+
+## Chapter 13 - Multithreading
+
+| File | Concept |
+|---|---|
+| `CWH_V70_thread_CH13.java` | Introduction to threads, creating a thread by extending `Thread` |
+| `CWH_V71_threadUsingRunnableInterface.java` | Creating a thread using the `Runnable` interface |
+| `CWH_V73_ThreadConstructor.java` | Thread constructors |
+| `CWH_V74_ThreadPriorities.java` | Thread priorities |
+| `CWH_V75_ThreadMethod.java` | Thread methods |
+
+## Chapter 13 - Practice Set
+
+| File | Problem |
+|---|---|
+| `Ch13_PS1/CWH_ch13_ps1.java` | Q1-Q5: continuous "good morning" / "welcome" threads, `sleep()` delay of 200 ms, `getPriority()` / `setPriority()`, getting a thread's state, getting the current thread |
+
+## Concepts covered (Chapters 12-13)
+
+- Packages and access modifiers
+- Creating threads with `Thread` and `Runnable`
+- Thread constructors, priorities and methods
+- `sleep()`, `getState()` and `Thread.currentThread()`
+
 ## How to run
 
 javac <filename>.java
 java <ClassName>
 
 
-## Status
-🚧 In progress — Chapters 1-6 complete (fundamentals, operators, strings, conditionals & switch, loops, arrays), plus a nested-loop prime number project and a Rock-Paper-Scissors mini-game.
+In progress - Chapters 1-13 complete (fundamentals through multithreading).
